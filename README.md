@@ -244,7 +244,6 @@ http://localhost:8082
 | High | Cached in Redis → promoted to permanent disk storage |
 | Medium | Cached in Redis → promoted to permanent disk storage |
 | Low | Cached in Redis → evicted immediately, nothing saved |
-| Unknown | Cached in Redis → evicted immediately, nothing saved |
 
 Permanent frames are automatically deleted after 30 days via a scheduled job that runs every midnight.
 
