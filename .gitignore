@@ -171,3 +171,10 @@ redis-dump/
 *.crt
 secrets/
 credentials/
+
+# ===========================
+# Project Root - Unnecessary Files
+# ===========================
+$null
+apiRefer.md
+start-all.bat
