@@ -99,3 +99,75 @@ temp/
 *.bak
 *.swp
 *~
+
+# ===========================
+# SentinelAI - Runtime Data (NOT FOR GITHUB)
+# ===========================
+
+# Uploaded files and media
+uploads/
+incident-frames/
+incidents-reports/
+temp-frames/
+
+# Redis data (if using local Redis dump)
+dump.rdb
+appendonly.aof
+
+# FFmpeg temporary files
+*.ffmpeg.tmp
+ffmpeg_temp/
+
+# Session storage exports
+*.json
+!package.json
+!composer.json
+
+# Local storage backups
+*.backup
+*.bk
+
+# ===========================
+# SentinelAI - Development Files
+# ===========================
+
+# Start scripts (local configuration)
+start-all.bat
+start-backend.bat
+
+# Documentation drafts
+apiRefer.md
+$null
+
+# Local test files
+test-uploads/
+sample-videos/
+test-images/
+
+# Debug logs
+debug.log
+error.log
+application.log
+
+# ===========================
+# Database (if using local files)
+# ===========================
+*.db
+*.sqlite
+*.h2.db
+*.trace.db
+
+# ===========================
+# Redis
+# ===========================
+redis-data/
+redis-dump/
+
+# ===========================
+# Misc
+# ===========================
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
